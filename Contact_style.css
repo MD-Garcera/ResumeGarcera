@@ -1,0 +1,105 @@
+body{  
+    font-family: basic-sans, sans-serif;
+    height: 100vh;
+    background:radial-gradient(circle at 30% 0%, rgba(61, 62, 66, 1) 0%, rgba(26, 27, 32, 1) 43%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box{
+    background: transparent;
+    height: 450px;
+    width: 350px;
+    box-shadow: 0 0 48px rgba(0,0,0,.50);
+    text-align: center;
+} 
+.line{
+    margin-top: 50px;
+    height: 2px;
+    width: 50%;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,0,0,0) 100%);
+}
+.border{
+    padding: 40px;
+    width: 550px;
+    border-top: 1px solid white;
+    margin: 10px;
+    background: rgb(255,255,255);
+    background:radial-gradient(circle at 50% 0%, rgba(255, 255, 255, .30) 0%, rgba(255, 255, 255,.15) 10%, rgba(255, 255, 255, 0) 15%);
+}
+
+h1{
+  color:white
+}
+
+.textbox {
+        border: none;
+        color: white;
+        opacity: 0.75;
+        padding: 10px; 
+        border-bottom: 1px solid white;
+        background-color: transparent;
+        outline: none;
+}
+input::placeholder{
+  	color: white;
+  	opacity: 0.75;
+  	background-color: transparent;
+}
+
+  
+textarea{
+    margin-top: 15px;
+    text-align: left;
+    padding: 10px;
+    color: white;
+    opacity: 0.75;
+    background-color: transparent;
+    border: none;
+    outline: none;
+  	border-bottom: 1px solid white;
+}
+
+.Social_media{
+    padding: 20px;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+}
+
+
+img{    
+    width: 40px;
+    height: 40px;
+    margin: 60px 5px 0px 5px;
+}
+
+.button{
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Submit_button{
+    color: white;
+    background: transparent;
+    height: 40px;
+    width: 160px;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,.50);;
+    border: 0;
+    margin: 0px 5px 0px 5px;
+}
+
+.Reset_button{
+    font-size: 15px;
+    color: white;
+    background: transparent;
+    height: 40px;
+    width: 40px;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,.50);;
+    border: 0;
+}
