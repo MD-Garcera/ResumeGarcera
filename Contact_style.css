@@ -1,3 +1,5 @@
+
+
 body{  
     font-family: basic-sans, sans-serif;
     height: 100vh;
@@ -6,6 +8,13 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+.back{
+    color: white;
+    padding-bottom: 10px;
+    font-size: 30px;;
+    background: transparent;
+    border: none;
 }
 .box{
     background: transparent;
